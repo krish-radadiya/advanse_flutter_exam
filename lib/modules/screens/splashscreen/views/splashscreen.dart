@@ -17,7 +17,9 @@ class splashscreen extends StatelessWidget {
           width: 400,
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('assets/News.gif'),
+              image: AssetImage(
+                'assets/News.gif',
+              ),
             ),
           ),
         ),
